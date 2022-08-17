@@ -39,3 +39,8 @@ body {
 .tableBody {
     color: white;
 }
+
+.stuff {
+    display: grid;
+    justify-content: center;
+}

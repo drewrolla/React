@@ -39,6 +39,8 @@ export default class TodoList extends Component {
         });
     };
 
+    // currently my remove and add buttons on this do the same thing and at the moment I don't have the
+    // brain capacity to figure it out
   render() {
     return (
       <div className='container'>
@@ -47,6 +49,7 @@ export default class TodoList extends Component {
                 <div className='col-12'>
                     <input className='form-control' value={this.state.newToDo} onChange={this.updateValue} placeholder="Add to list"/>
                     <button className='btn btn-success' onClick={this.newTodo}>Add</button>
+                    <button className='btn btn-danger' onClick={this.newTodo}>Remove</button>
                 </div>
                 <div className='col-12'>
                     <table className='table'>

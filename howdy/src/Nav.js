@@ -24,7 +24,10 @@ export default class Nav extends Component {
                       <Link className="nav-link" to="/idk">Elsewhere</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to="/todoList">Todo</Link>
+                      <Link className="nav-link" to="/todoList">Todo (RCC)</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/todoList2">Todo (RFC)</Link>
                     </li>
                 </ul>
                 </div>
