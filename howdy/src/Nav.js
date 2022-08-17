@@ -23,11 +23,11 @@ export default class Nav extends Component {
                     <li className="nav-item">
                       <Link className="nav-link" to="/idk">Elsewhere</Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link className="nav-link" to="/todoList">Todo (RCC)</Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                      <Link className="nav-link" to="/todoList2">Todo (RFC)</Link>
+                      <Link className="nav-link" to="/todoList2">Todo</Link>
                     </li>
                 </ul>
                 </div>
