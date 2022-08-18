@@ -4,6 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos'
 
+// also done watching a tutorial, todolist and todo go along with this page
+
 export default function TodoList2() {
     const [todos, setTodos] = useState([]) //default Todos
     const todoNameRef = useRef()

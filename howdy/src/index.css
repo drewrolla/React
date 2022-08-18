@@ -8,11 +8,11 @@ body {
 }
 
 .navbar-brand {
-    color: rgb(198, 154, 154);
+    color: rgb(45, 164, 37);
 }
 
 .nav-link {
-    color: rgb(222, 190, 190);
+    color: rgb(14, 199, 7);
 }
 
 .homeIcon {
@@ -37,7 +37,7 @@ body {
 }
 
 .tableBody {
-    color: white;
+    color: rgb(6, 167, 9);
 }
 
 .stuff {

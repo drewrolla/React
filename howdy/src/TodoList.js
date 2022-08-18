@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import TodoNav from './components/TodoNav';
 import TodoRows from './components/TodoRows';
 
+// this was done using RCC watching a tutorial - todonav and todorows go along with it
+
 export default class TodoList extends Component {
     constructor(props) {
         super(props);
