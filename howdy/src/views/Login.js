@@ -20,6 +20,22 @@ export default class Login extends Component {
         const data = await res.json();
         console.log(data)
 
+        if (data.status ==='ok') {
+            this.props.logMeIn(data.data) // might have to change function name for logMeInfo for future assignments
+        }
+    };
+
+    sendBAsicAuth = async(e) => {
+        e.preventDefault();
+        const res = await fetch('', { // need to put in flask app login page redirect thing, leaving blank for now (i.e. 'http://localhost:5000/api/login')
+            method: "POST",
+            headers: {Authorization: `Bearer ${btoa(e.target.username.value+":"+e.target.password.value)}`}
+        });
+        const data = await res.json();
+        console.log(data)
+        if (data.status ==='ok') {
+            this.props.logMeIn(data.data) // might have to change function name for logMeIn for future assignemnts
+        }
     }
 
 

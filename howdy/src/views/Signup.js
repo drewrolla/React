@@ -9,7 +9,7 @@ export default class Signup extends Component {
             return
         }
 
-        const res = await fetch('', {
+        const res = await fetch('', { // need to put in flask app localhost signup page redirect thing, for now will leave blank (i.e. 'http://localhost:5000/api/signup')
             method: "POST",
             headers: {
                 "Content-Type": 'application/json'
