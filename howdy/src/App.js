@@ -6,6 +6,8 @@ import Nav from './Nav'
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import TodoList from './TodoList';
 import TodoList2 from './TodoList2';
+import Login from './views/Login';
+import Signup from './views/Signup';
 
 
 export default class App extends Component {
@@ -30,6 +32,8 @@ export default class App extends Component {
             <Route path='/idk' element={<Idk />} />
             <Route path='/todoList' element={<TodoList />} />
             <Route path='/todoList2' element={<TodoList2 />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<Signup />} />
           </Routes>
         </div>
       </BrowserRouter>
