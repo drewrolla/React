@@ -8,6 +8,7 @@ import TodoList from './TodoList';
 import TodoList2 from './TodoList2';
 import Login from './views/Login';
 import Signup from './views/Signup';
+import TodoList3 from './TodoList3';
 
 
 export default class App extends Component {
@@ -34,6 +35,7 @@ export default class App extends Component {
             <Route path='/todoList2' element={<TodoList2 />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<Signup />} />
+            <Route path='/todoList3' element={<TodoList3 />} />
           </Routes>
         </div>
       </BrowserRouter>
